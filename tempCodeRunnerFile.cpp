@@ -1,6 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
-// void explainPair(){
+void explainPair(){
 //     pair<int,int> p={1,3};
 //     cout<<p.first<<" "<<p.second<<"\n";
 //     pair<int,pair<int,int>> q={1,{3,4}};
@@ -131,19 +129,3 @@ using namespace std;
 //     priority_queue<int> p;
 //     cout<<p.empty();
 // }
-void explainSet(){
-    set<int> st;
-    st.insert(1);
-    st.insert(2);
-    st.emplace(2);
-    st.insert(4);
-    st.insert(3);
-    for(auto it=st.begin();it!=st.end();it++){
-        cout<<st.size()<<" ";
-    }
-    auto it=st.find()
-}
-int main(){
-    explainSet();
-    return 0;
-}
